@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 40px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input p{
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.input input{
+    border: none;
+    padding-left:8px;
+    font-size: 30px;
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(58, 178, 242);
+}
+
+.input button{
+    width: 100px;
+    margin: 10px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+}
+
+.input button:hover{
+    background-color: green;
+}
+
+#output{
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 400px;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#output #text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#output #result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: blue;
+    margin: 20px;
+}
